@@ -52,7 +52,7 @@
 		<repository>
             <id>bintray-bootique-releases</id>
             <name>bintray-bootique-releases</name>
-            <url>https://api.bintray.com/maven/bootique/releases/${project.artifactId};publish=1</url>
+            <url>https://api.bintray.com/maven/bootique/releases/${project.artifactId}/;publish=1</url>
         </repository>
 		<snapshotRepository>
 			<id>bootique-snapshots</id>
