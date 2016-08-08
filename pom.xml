@@ -35,6 +35,11 @@
     </developers>
 
     <scm>
+        <!-- TODO: Somehow dynamic scm.developerConnection value can't be properly inherited.
+            maven-release-plugin would generate URLs like 'bootique/${project.artifactId}/${project.artifactId}'
+            out of it (?!?).  Should probably replace ${project.artifactId} with a static value and ensure that 
+            each subpom explicitly defines its Git location...
+        -->
         <developerConnection>scm:git:ssh://git@github.com/bootique/${project.artifactId}</developerConnection>
         <url>https://github.com/bootique/${project.artifactId}</url>
         <tag>HEAD</tag>
