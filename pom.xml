@@ -22,11 +22,6 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
-        <!-- This property controls the name part of SCM and repository URLs.
-             Usually needs to be changed only for multi-module projects.
-        -->
-        <public.name>${project.artifactId}</public.name>
     </properties>
 
     <developers>
@@ -40,7 +35,7 @@
     </developers>
 
     <scm>
-        <developerConnection>scm:git:ssh://git@github.com/bootique/${public.name}</developerConnection>
+        <developerConnection>scm:git:ssh://git@github.com/bootique/${project.artifactId}</developerConnection>
         <url>https://github.com/bootique/${public.name}</url>
         <tag>HEAD</tag>
     </scm>
@@ -57,7 +52,7 @@
         <repository>
             <id>bintray-bootique-releases</id>
             <name>bintray-bootique-releases</name>
-            <url>https://api.bintray.com/maven/bootique/releases/${public.name}/;publish=1</url>
+            <url>https://api.bintray.com/maven/bootique/releases/${project.artifactId}/;publish=1</url>
         </repository>
         <snapshotRepository>
             <id>bootique-snapshots</id>
