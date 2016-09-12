@@ -65,34 +65,7 @@
         </snapshotRepository>
     </distributionManagement>
 
-    <pluginRepositories>
-        <!-- Using Bintray instead of Maven Central as Travis is occasionally blocked form Central -->
-        <pluginRepository>
-            <id>bintray-jcenter</id>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <url>https://jcenter.bintray.com/</url>
-        </pluginRepository>
-
-    </pluginRepositories>
-
     <repositories>
-        <!-- Using Bintray instead of Maven Central as Travis is occasionally blocked form Central -->
-        <repository>
-            <id>bintray-jcenter</id>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <url>https://jcenter.bintray.com/</url>
-        </repository>
-
         <repository>
             <id>bootique-snapshots</id>
             <url>http://maven.objectstyle.org/nexus/content/repositories/bootique-snapshots</url>
