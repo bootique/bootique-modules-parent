@@ -1,3 +1,7 @@
+## 0.9
+
+* #5 Plugins update
+
 ## 0.8
 
 * #4 Update `mockito-core` to `2.15.0` and slf4j-api to `1.7.25`
