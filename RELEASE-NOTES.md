@@ -1,5 +1,6 @@
 ## 0.9
 
+* #2 Include common modules and update versions
 * #5 Plugins update
 
 ## 0.8
