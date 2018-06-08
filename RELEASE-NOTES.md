@@ -1,6 +1,7 @@
 ## 0.9
 
 * #2 Include common modules and update versions
+* #3 Add autoVersionSubmodules=true to maven-release-plugin
 * #5 Plugins update
 
 ## 0.8
