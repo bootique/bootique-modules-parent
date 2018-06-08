@@ -178,16 +178,6 @@
                 <artifactId>jersey-client</artifactId>
                 <version>${jersey.version}</version>
             </dependency>
-            <dependency>
-                <groupId>org.glassfish.jersey.media</groupId>
-                <artifactId>jersey-media-multipart</artifactId>
-                <version>${jersey.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.glassfish.jersey.connectors</groupId>
-                <artifactId>jersey-grizzly-connector</artifactId>
-                <version>${jersey.version}</version>
-            </dependency>
 
             <!-- Jackson -->
             <dependency>
@@ -301,7 +291,7 @@
                     <artifactId>maven-failsafe-plugin</artifactId>
                     <!-- TODO: Update to 2.22.0 after release to avoid java.lang.IndexOutOfBoundsException
                        in bootique-logback module -->
-                    <version>2.20.1</version>
+                    <version>2.21.0</version>
                     <executions>
                         <execution>
                             <id>integration-test</id>

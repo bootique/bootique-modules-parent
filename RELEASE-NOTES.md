@@ -1,3 +1,7 @@
+## 0.10
+
+* #7 Java 9 java.lang.NoClassDefFoundError: javax/annotation/Priority
+
 ## 0.9
 
 * #2 Include common modules and update versions
