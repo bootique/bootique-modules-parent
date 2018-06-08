@@ -303,8 +303,6 @@
                 </plugin>
                 <plugin>
                     <artifactId>maven-failsafe-plugin</artifactId>
-                    <!-- TODO: Update to 2.22.0 after release to avoid java.lang.IndexOutOfBoundsException
-                       in bootique-logback module -->
                     <version>2.21.0</version>
                     <executions>
                         <execution>
