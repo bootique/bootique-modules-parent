@@ -1,6 +1,7 @@
 ## 0.10
 
 * #7 Java 9 java.lang.NoClassDefFoundError: javax/annotation/Priority
+* #8 Add jaxb and javax.activation dependencies to common modules
 
 ## 0.9
 
