@@ -1,6 +1,7 @@
 ## 0.11
 
 * #10 Update maven plugins
+* #11 Mockito 2.15.0 doesn't works with jdk11
 
 ## 0.10
 
