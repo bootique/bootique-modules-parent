@@ -1,3 +1,7 @@
+## 0.11
+
+* #10 Update maven plugins
+
 ## 0.10
 
 * #7 Java 9 java.lang.NoClassDefFoundError: javax/annotation/Priority
