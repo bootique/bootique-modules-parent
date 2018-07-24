@@ -1,3 +1,8 @@
+## 0.26
+
+* Upgrading Jersey to 2.27
+* Aligning bootique-modules-parent version with Bootique core.
+
 ## 0.11
 
 * #10 Update maven plugins
