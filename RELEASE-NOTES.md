@@ -1,3 +1,7 @@
+## 0.13
+
+* Upgrading Jersey to 2.27
+
 ## 0.11
 
 * #10 Update maven plugins
