@@ -17,9 +17,20 @@ language: java
 
 jdk:
   - oraclejdk8
-  - oraclejdk10
-  - openjdk11
 
 branches:
   only:
     - master
+
+script:
+  - 'if [ "$TRAVIS_SECURE_ENV_VARS" = "true" ]; then mvn clean deploy --settings travis_settings.xml; fi'
+  - 'if [ "$TRAVIS_SECURE_ENV_VARS" = "false" ]; then mvn clean verify; fi'
+
+
+# travis encrypt -r bootique/bootique-modules-parent "CI_DEPLOY_USERNAME='name'"
+# travis encrypt -r bootique/bootique-modules-parent "CI_DEPLOY_PASSWORD='password'"
+env:
+  global:
+    - secure: "TFwOmNj9Za4033ZIDBq3EnfvHfL6We7dafHgm7cOdu+J/ewUzJWBt5QfWN2rlJE8tPqT7FQItrvsVVaYa7CNDIjTVKAei0zGdB3wlZ1kBiPgAkJh4cS1GrtiXkt+Wt08/G4lq2VFBaOq6xzvCRjsgAo1/LgguHDygUrqKrASEFhPMyavkJA4nnhHokxWF5O8z9DJE5oD+EJS0NZolOu6s8wgTm/zBHkHIdCO4MSC+sOOyrHFZsgcBI7L0dG5tzYShDyoUll80fQlBW+lgmEJR5FMBJqL9pW6ROsvnNVPwsHXDqhYAUNNiOHAQ5lSkj6NmErxMGtZKXioFR1b4CeiP/FRbUQrobipUjyR0sJcX5IjNraxpxhddHeMstRgLbxgbDUo5/VvztPvm1Soai0VptChkPJfqjnUR2U1p+t6sxQh6cLnS4M7nqpBiPfbVSAoYHReg+TIUTLdZcMMasRCCSyA1QtMkABZMm5MWRXhMuU1CYPhC1Oa4d/2dMJFXhtxVujDn8u26bO18rys3vnK7YDrFd7+x/76urZa65D+3vKe5lUaiYyxmkQLMmbZpSWVODdAQ3ASBh0XaCQVAEMMyY97QD6XAxS3oRUAWldY4OmIgH6TqyXEwIjelqIFHMO0XpxhN8Yeeot2MBmFXdoDZfIlToSFcPqSt/LrhzTWLP0="
+    - secure: "Os2Oq795u+DDJB778+dpqiuvlIsIxilrAKp9fRydPRfeDCnTeg+KQSjISMK/0IOnhs7tpipNl134tE7IA+KJzZeZlyAAiyvXcfQosg1ML1/Oc7AuGyuWU4XG5u3zb11qvtHzF7xG4CkvDdMmhtlFJySBdbWTTpE2/M6vxd6XkKLPp9Rhx88yzgSW/rOz+8v5H3m3d/6xNH7SmpzSnM6aJt1jv0Ge43dxoTOd8cJbMp01WppRoAfxcNGacxcuD0kFSSbB/cabEnpBjggp0A0BEOkiSkKvDU88GomOnLQBV7phCowSESKvNFxmEGsmxGt1DVogB/B0gqKub3oBV9LCx4vQNRKTVZbB3NHQgG0W3PLObu2QR2Sdh0ROZ5o0eftGfnJQdQ4fQYJPxD/G5XbuypyR2MB/cXfBXMsv9Nbc7kykuAQTGcuQmfYQO8WzyJf0e6PADXBnrsWU5BYRmCjRFkA3n9KfDpsFm+QNX9HVqZ7oemssAuFM8gr1I8BZyeTUHaby9WYSnP893xnH5nGzmH96LsKP//6H+WvRseKo6V2WnrM+GthPiNbdNSybQ8eJVc9VZcbQAdZeK4kBzHYl7RiCBN0zw1eticcpn0E3lwDGXtiizXA1m7J555lBXdI9J3ff5zALTnDCUvNqAvVDEBert9uZrMFygBmh0jx3Ym8="
+
