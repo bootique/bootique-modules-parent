@@ -1,6 +1,7 @@
 ## 0.14
 
 * #13 Remove org.glassfish.jersey.core:jersey-client from dependency declarations
+* #14 Add JAX RS spec in dependency management with explicitly declared version of 2.1
 
 ## 0.13
 

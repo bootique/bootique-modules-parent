@@ -47,11 +47,17 @@
         <guice.version>4.2.0</guice.version>
         <jackson.version>2.9.5</jackson.version>
         <jaxb.version>2.3.0</jaxb.version>
+
+        <!-- JAX-RS and Jersey versions' Internal JAX RS dependency must match -->
+        <jaxrs.version>2.1</jaxrs.version>
         <jersey.version>2.27</jersey.version>
+
+        <!-- Servlet and Jetty's versions' internal servlet dependency must match -->
+        <servlet.version>3.1.0</servlet.version>
         <jetty.version>9.4.9.v20180320</jetty.version>
+
         <junit.version>4.12</junit.version>
         <mockito.version>2.19.0</mockito.version>
-        <servlet.version>3.1.0</servlet.version>
         <slf4j.version>1.7.25</slf4j.version>
     </properties>
 
@@ -154,6 +160,13 @@
                 <version>${servlet.version}</version>
             </dependency>
 
+            <!-- JAX-RS API -->
+            <dependency>
+                <groupId>javax.ws.rs</groupId>
+                <artifactId>javax.ws.rs-api</artifactId>
+                <version>${jaxrs.version}</version>
+            </dependency>
+
             <!-- Jetty -->
             <dependency>
                 <groupId>org.eclipse.jetty</groupId>
@@ -165,7 +178,7 @@
                 <artifactId>jetty-servlet</artifactId>
                 <version>${jetty.version}</version>
             </dependency>
-            
+
             <!-- SLF4J -->
             <dependency>
                 <groupId>org.slf4j</groupId>
