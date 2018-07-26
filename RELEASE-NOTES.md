@@ -1,3 +1,7 @@
+## 0.14
+
+* #13 Remove org.glassfish.jersey.core:jersey-client from dependency declarations
+
 ## 0.13
 
 * Upgrading Jersey to 2.27
