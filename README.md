@@ -18,8 +18,7 @@
   -->
 
 [![Build Status](https://travis-ci.org/bootique/bootique-modules-parent.svg)](https://travis-ci.org/bootique/bootique-modules-parent)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.bootique.modules.parent/bootique-modules-parent/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.bootique.modules.parent/bootique-modules-parent/)
-
+[![Maven Central](https://img.shields.io/maven-central/v/io.bootique.modules.parent/bootique-modules-parent.svg?colorB=brightgreen)](https://search.maven.org/artifact/io.bootique.modules.parent/bootique-modules-parent/)
 
 _Not for public use! See [this parent POM](https://github.com/bootique/bootique-parent) instead._
 
