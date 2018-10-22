@@ -17,7 +17,7 @@ language: java
 
 jdk:
   - oraclejdk8
-  - oraclejdk10
+  - openjdk10
   - openjdk11
 
 branches:
