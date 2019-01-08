@@ -1,3 +1,7 @@
+## 0.15
+
+* #16 Update Jackson to 2.9.8 
+
 ## 0.14
 
 * #13 Remove org.glassfish.jersey.core:jersey-client from dependency declarations
