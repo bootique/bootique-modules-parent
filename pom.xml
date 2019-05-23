@@ -98,14 +98,14 @@
         </repository>
         <snapshotRepository>
             <id>bootique-snapshots</id>
-            <url>http://maven.objectstyle.org/nexus/content/repositories/bootique-snapshots</url>
+            <url>https://maven.objectstyle.org/nexus/content/repositories/bootique-snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
     <repositories>
         <repository>
             <id>bootique-snapshots</id>
-            <url>http://maven.objectstyle.org/nexus/content/repositories/bootique-snapshots</url>
+            <url>https://maven.objectstyle.org/nexus/content/repositories/bootique-snapshots</url>
             <releases>
                 <enabled>false</enabled>
             </releases>
@@ -128,7 +128,7 @@
         <!-- Contains artifacts that may not yet be available in Central-->
         <repository>
             <id>bintray-bootique</id>
-            <url>http://dl.bintray.com/bootique/releases</url>
+            <url>https://dl.bintray.com/bootique/releases</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
