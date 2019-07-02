@@ -31,7 +31,7 @@
         Stores common developments and deployment settings for Bootique standard modules.
     </description>
 
-    <url>http://bootique.io</url>
+    <url>https://bootique.io</url>
     <organization>
         <name>ObjectStyle LLC</name>
     </organization>
