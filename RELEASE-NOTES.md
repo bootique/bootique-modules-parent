@@ -1,3 +1,9 @@
+## 1.0
+
+* #17 Update Jackson to 2.10.0.pr1
+
+## 0.16
+
 ## 0.15
 
 * #16 Update Jackson to 2.9.8 
