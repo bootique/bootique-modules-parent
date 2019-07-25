@@ -1,6 +1,7 @@
 ## 1.0
 
 * #17 Update Jackson to 2.10.0.pr1
+* #18 Upgrade Jetty to 9.4.19.v20190610
 
 ## 0.16
 
