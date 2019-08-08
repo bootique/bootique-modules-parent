@@ -1,3 +1,7 @@
+## 1.1
+
+* #19 Upgrade Guice to 4.2.2
+
 ## 1.0
 
 * #17 Update Jackson to 2.10.0.pr1

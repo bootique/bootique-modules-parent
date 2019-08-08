@@ -44,7 +44,7 @@
 
         <!-- Common lib versions -->
         <activation.version>1.1.1</activation.version>
-        <guice.version>4.2.0</guice.version>
+        <guice.version>4.2.2</guice.version>
         <jackson.version>2.10.0.pr1</jackson.version>
         <jaxb.version>2.3.0</jaxb.version>
 
