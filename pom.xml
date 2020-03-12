@@ -44,8 +44,7 @@
 
         <!-- Common lib versions -->
         <activation.version>1.1.1</activation.version>
-        <guice.version>4.2.2</guice.version>
-        <jackson.version>2.10.0.pr1</jackson.version>
+        <jackson.version>2.10.3</jackson.version>
         <jaxb.version>2.3.0</jaxb.version>
 
         <!-- JAX-RS and Jersey versions' Internal JAX RS dependency must match -->
@@ -54,10 +53,10 @@
 
         <!-- Servlet and Jetty's versions' internal servlet dependency must match -->
         <servlet.version>3.1.0</servlet.version>
-        <jetty.version>9.4.19.v20190610</jetty.version>
+        <jetty.version>9.4.27.v20200227</jetty.version>
 
-        <junit.version>4.12</junit.version>
-        <mockito.version>2.19.0</mockito.version>
+        <junit.version>4.13</junit.version>
+        <mockito.version>3.3.0</mockito.version>
         <slf4j.version>1.7.25</slf4j.version>
     </properties>
 

@@ -1,3 +1,7 @@
+## 2.0
+
+* #20 Update dependencies 
+
 ## 1.1
 
 * #19 Upgrade Guice to 4.2.2
