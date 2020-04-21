@@ -1,5 +1,6 @@
 ## 2.0
 
+* #21 Change snapshot repository to oss.jfrog.org 
 * #20 Update dependencies 
 
 ## 1.1
