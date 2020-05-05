@@ -249,31 +249,6 @@
                 <version>${jackson.version}</version>
             </dependency>
 
-            <!-- Guice -->
-            <dependency>
-                <groupId>com.google.inject</groupId>
-                <artifactId>guice</artifactId>
-                <version>${guice.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>com.google.code.findbugs</groupId>
-                        <artifactId>jsr305</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>com.google.errorprone</groupId>
-                        <artifactId>error_prone_annotations</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>com.google.j2objc</groupId>
-                        <artifactId>j2objc-annotations</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.codehaus.mojo</groupId>
-                        <artifactId>animal-sniffer-annotations</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-
             <!-- Common Java 9+ deps -->
             <dependency>
                 <groupId>javax.xml.bind</groupId>
