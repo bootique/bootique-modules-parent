@@ -1,3 +1,8 @@
+## 2.0.1
+
+* #23 Update configuration for the GPG plugin 
+* #22 Remove Guice dependency
+
 ## 2.0
 
 * #21 Change snapshot repository to oss.jfrog.org 
