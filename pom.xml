@@ -283,6 +283,11 @@
                     <version>1.6</version>
                 </plugin>
                 <plugin>
+                    <groupId>org.apache.rat</groupId>
+                    <artifactId>apache-rat-plugin</artifactId>
+                    <version>0.13</version>
+                </plugin>
+                <plugin>
                     <artifactId>maven-javadoc-plugin</artifactId>
                     <version>3.1.1</version>
                 </plugin>
@@ -372,7 +377,6 @@
                     <plugin>
                         <groupId>org.apache.rat</groupId>
                         <artifactId>apache-rat-plugin</artifactId>
-                        <version>0.13</version>
                         <executions>
                             <execution>
                                 <phase>verify</phase>
