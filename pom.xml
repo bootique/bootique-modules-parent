@@ -98,14 +98,15 @@
         </repository>
         <snapshotRepository>
             <id>bootique-snapshots</id>
-            <url>https://maven.objectstyle.org/nexus/content/repositories/bootique-snapshots</url>
+            <name>oss-jfrog-artifactory-snapshots</name>
+            <url>https://oss.jfrog.org/artifactory/oss-snapshot-local/</url>
         </snapshotRepository>
     </distributionManagement>
 
     <repositories>
         <repository>
             <id>bootique-snapshots</id>
-            <url>https://maven.objectstyle.org/nexus/content/repositories/bootique-snapshots</url>
+            <url>https://oss.jfrog.org/artifactory/libs-snapshot</url>
             <releases>
                 <enabled>false</enabled>
             </releases>
