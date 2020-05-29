@@ -59,6 +59,8 @@
         <junit.version>4.12</junit.version>
         <mockito.version>2.19.0</mockito.version>
         <slf4j.version>1.7.25</slf4j.version>
+
+        <gpg.pinentry-mode>loopback</gpg.pinentry-mode>
     </properties>
 
     <developers>
@@ -383,6 +385,12 @@
                                 <goals>
                                     <goal>sign</goal>
                                 </goals>
+                                <configuration>
+                                    <gpgArguments>
+                                        <arg>--pinentry-mode</arg>
+                                        <arg>${gpg.pinentry-mode}</arg>
+                                    </gpgArguments>
+                                </configuration>
                             </execution>
                         </executions>
                     </plugin>
