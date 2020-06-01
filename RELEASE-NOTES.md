@@ -1,3 +1,7 @@
+## 1.2
+
+* #24 Update dependencies: Jetty and Jackson 
+
 ## 1.1
 
 * #19 Upgrade Guice to 4.2.2
