@@ -1,3 +1,7 @@
+## 2.0.4
+
+* #30 Upgrade JUnit 5 to 5.7.0
+
 ## 2.0.3
 
 * #27 Upgrade JUnit 4 to 4.13.1
