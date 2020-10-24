@@ -2,6 +2,7 @@
 
 * #27 Upgrade JUnit 4 to 4.13.1
 * #28 Upgrade to Jackson 2.11.3
+* #29 Upgrade Jetty to 9.4.33.v20201020
 
 ## 2.0.1
 
