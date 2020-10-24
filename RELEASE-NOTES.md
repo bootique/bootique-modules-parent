@@ -1,3 +1,7 @@
+## 2.0.3
+
+* #27 Upgrade JUnit 4 to 4.13.1
+
 ## 2.0.1
 
 * #23 Update configuration for the GPG plugin 
