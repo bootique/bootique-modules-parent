@@ -1,6 +1,7 @@
 ## 2.0.3
 
 * #27 Upgrade JUnit 4 to 4.13.1
+* #28 Upgrade to Jackson 2.11.3
 
 ## 2.0.1
 
