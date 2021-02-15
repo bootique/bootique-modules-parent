@@ -1,3 +1,8 @@
+## 2.0.5
+
+#32 Switch to oss.sonatype.org snapshot and staging repositories
+#33 Upgrade Jetty to 9.4.36.v20210114
+
 ## 2.0.4
 
 * #30 Upgrade JUnit 5 to 5.7.0
