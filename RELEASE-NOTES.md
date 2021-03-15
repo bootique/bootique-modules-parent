@@ -1,3 +1,7 @@
+## 1.2.2
+
+#34 Bootique 1.x: switch to oss.sonatype.org snapshot and staging repositories 
+
 ## 1.2
 
 * #24 Update dependencies: Jetty and Jackson 
