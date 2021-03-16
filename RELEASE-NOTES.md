@@ -1,8 +1,8 @@
 ## 1.2.2
 
-#34 Bootique 1.x: switch to oss.sonatype.org snapshot and staging repositories
-#35 Bootique 1.x: Update JUnit to 4.13.1
-#36 Bootique 1.x: Update Jetty to 9.4.38.v20210224
+* #34 Bootique 1.x: switch to oss.sonatype.org snapshot and staging repositories
+* #35 Bootique 1.x: Update JUnit to 4.13.1
+* #36 Bootique 1.x: Update Jetty to 9.4.38.v20210224
 
 ## 1.2
 
