@@ -17,7 +17,7 @@
   under the License.
   -->
 
-[![Build Status](https://travis-ci.org/bootique/bootique-modules-parent.svg)](https://travis-ci.org/bootique/bootique-modules-parent)
+[![build test deploy 1.x](https://github.com/bootique/bootique-modules-parent/actions/workflows/maven-1x.yml/badge.svg)](https://github.com/bootique/bootique-modules-parent/actions/workflows/maven-1x.yml)
 [![Maven Central](https://img.shields.io/maven-central/v/io.bootique.modules.parent/bootique-modules-parent.svg?colorB=brightgreen)](https://search.maven.org/artifact/io.bootique.modules.parent/bootique-modules-parent/)
 
 _Not for public use! See [this parent POM](https://github.com/bootique/bootique-parent) instead._
