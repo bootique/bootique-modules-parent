@@ -1,3 +1,9 @@
+## 2.0.6
+
+* #37 Upgrade Jetty to 9.4.40.v20210413
+* #38 Upgrade Jackson to 2.12.3
+* #39 Upgrade JUnit and Mockito
+
 ## 2.0.5
 
 * #32 Switch to oss.sonatype.org snapshot and staging repositories
