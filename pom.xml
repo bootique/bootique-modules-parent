@@ -53,7 +53,7 @@
 
         <!-- Servlet and Jetty's versions' internal servlet dependency must match -->
         <servlet.version>3.1.0</servlet.version>
-        <jetty.version>9.4.40.v20210413</jetty.version>
+        <jetty.version>9.4.43.v20210629</jetty.version>
 
         <junit.version>4.13.2</junit.version>
         <junit5.version>5.7.1</junit5.version>
