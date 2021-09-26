@@ -1,3 +1,7 @@
+## 3.0.1
+
+* #42 Upgrade JUnit 5 to 5.8.1
+
 ## 2.0.7
 
 * #41 Upgrade Jetty from 9.4.40.v20210413 to 9.4.43.v20210629
