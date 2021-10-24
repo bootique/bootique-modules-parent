@@ -1,3 +1,11 @@
+## 3.0.3
+
+* #44 "maven-failsafe-plugin" should disable java module use by default 
+
+## 3.0.2
+
+* #43 Java 11 as a minimal requirement for Bootique
+
 ## 3.0.1
 
 * #42 Upgrade JUnit 5 to 5.8.1
