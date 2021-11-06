@@ -23,7 +23,7 @@
 
     <groupId>io.bootique.modules.parent</groupId>
     <artifactId>bootique-modules-parent</artifactId>
-    <version>3.0.4</version>
+    <version>3.0.5-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>bootique-modules-parent: A parent POM of Bootique standard modules.</name>
@@ -75,7 +75,7 @@
         -->
         <developerConnection>scm:git:ssh://git@github.com/bootique/${project.artifactId}</developerConnection>
         <url>https://github.com/bootique/${project.artifactId}</url>
-        <tag>bootique-modules-parent-3.0.4</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <licenses>
