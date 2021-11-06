@@ -1,3 +1,7 @@
+## 3.0.4
+
+* #45 Remove references to Jetty and Servlets
+
 ## 3.0.3
 
 * #44 "maven-failsafe-plugin" should disable java module use by default 
