@@ -1,3 +1,7 @@
+## 3.0.5
+
+* #46 Jetty: keep common versions for Jetty 9 and 11, but not the dependencies
+
 ## 3.0.4
 
 * #45 Remove references to Jetty and Servlets

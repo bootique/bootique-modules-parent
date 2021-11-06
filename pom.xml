@@ -18,7 +18,8 @@
   under the License.
   -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.bootique.modules.parent</groupId>
@@ -54,6 +55,10 @@
         <junit5.version>5.8.1</junit5.version>
         <mockito.version>3.9.0</mockito.version>
         <slf4j.version>1.7.25</slf4j.version>
+        <jetty9.version>9.4.43.v20210629</jetty9.version>
+        <jetty11.version>11.0.7</jetty11.version>
+
+        <!-- Other properties -->
         <gpg.pinentry-mode>loopback</gpg.pinentry-mode>
     </properties>
 
