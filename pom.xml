@@ -46,7 +46,7 @@
         <jackson.version>2.12.3</jackson.version>
         <jaxb.version>2.3.1</jaxb.version>
 
-        <junit.version>4.13.2</junit.version>
+        <junit4.version>4.13.2</junit4.version>
         <junit5.version>5.8.1</junit5.version>
 
         <mockito.version>3.9.0</mockito.version>
@@ -148,16 +148,11 @@
 
             <!-- Testing -->
             <dependency>
-                <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
-                <version>${junit.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>org.mockito</groupId>
                 <artifactId>mockito-core</artifactId>
                 <version>${mockito.version}</version>
             </dependency>
-            
+
             <!-- SLF4J -->
             <dependency>
                 <groupId>org.slf4j</groupId>

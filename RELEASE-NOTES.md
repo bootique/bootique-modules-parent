@@ -1,6 +1,7 @@
 ## 3.0.6
 
 * #47 Define Jersey 2, 3 versions, remove JAXRS dependency
+* #48 Remove JUnit from "dependencyManagement" section
 
 ## 3.0.5
 
