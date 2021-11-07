@@ -1,3 +1,7 @@
+## 3.0.6
+
+* #47 Define Jersey 2, 3 versions, remove JAXRS dependency
+
 ## 3.0.5
 
 * #46 Jetty: keep common versions for Jetty 9 and 11, but not the dependencies
