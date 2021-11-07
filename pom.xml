@@ -55,7 +55,7 @@
         <jetty9.version>9.4.43.v20210629</jetty9.version>
         <jetty11.version>11.0.7</jetty11.version>
 
-        <jaxrs2.version>2.1.1</jaxrs2.version>
+        <jaxrs2.version>2.1.6</jaxrs2.version>
         <jersey2.version>2.35</jersey2.version>
 
         <jaxrs3.version>3.0.0</jaxrs3.version>

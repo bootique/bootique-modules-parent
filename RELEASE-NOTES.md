@@ -1,3 +1,7 @@
+## 3.0.7
+
+* #49 "jaxrs2.version" is wrong, must be 2.1.6
+
 ## 3.0.6
 
 * #47 Define Jersey 2, 3 versions, remove JAXRS dependency
