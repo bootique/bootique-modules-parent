@@ -25,7 +25,7 @@ _Not for public use! See [this parent POM](https://github.com/bootique/bootique-
 A parent POM of [Bootique](http://bootique.io) standard modules. Stores common development and deployment settings, 
 and common dependency versions. 
 
-Major version of `bootique-modules-parent` matches that of the downstream Bootique modules (e.g. 
+Downstream Bootique modules should use `bootique-modules-parent` with a matching major version (e.g. 
 `bootique-modules-parent:3.0.7` can be used by 3.x Bootique modules). Minor versions intentionally do not match, as 
-`bootique-modules-parent` are released independently of Bootique to facilitate the development process for the rest of
-the framework.
+`bootique-modules-parent` is released independently of other modules to facilitate the development process for the rest 
+of the framework.
