@@ -1,6 +1,6 @@
 ## 2.0.8
 
-* #62 Java 17 compatibility - Jersey 2.35 upgrade
+* #50 2.x upgrade Jersey to Java 17 compatible version of 2.35
 
 ## 2.0.7
 
