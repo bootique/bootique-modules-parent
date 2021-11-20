@@ -1,3 +1,7 @@
+## 2.0.8
+
+* #62 Java 17 compatibility - Jersey 2.35 upgrade
+
 ## 2.0.7
 
 * #41 Upgrade Jetty from 9.4.40.v20210413 to 9.4.43.v20210629

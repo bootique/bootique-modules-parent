@@ -48,8 +48,8 @@
         <jaxb.version>2.3.1</jaxb.version>
 
         <!-- JAX-RS and Jersey versions' Internal JAX RS dependency must match -->
-        <jaxrs.version>2.1.1</jaxrs.version>
-        <jersey.version>2.30.1</jersey.version>
+        <jaxrs.version>2.1.6</jaxrs.version>
+        <jersey.version>2.35</jersey.version>
 
         <!-- Servlet and Jetty's versions' internal servlet dependency must match -->
         <servlet.version>3.1.0</servlet.version>
@@ -164,8 +164,8 @@
 
             <!-- JAX-RS API -->
             <dependency>
-                <groupId>javax.ws.rs</groupId>
-                <artifactId>javax.ws.rs-api</artifactId>
+                <groupId>jakarta.ws.rs</groupId>
+                <artifactId>jakarta.ws.rs-api</artifactId>
                 <version>${jaxrs.version}</version>
             </dependency>
 
