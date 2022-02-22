@@ -381,6 +381,9 @@
                                 <exclude>**/META-INF/services/</exclude>
                                 <exclude>**/NOTICES</exclude>
                                 <exclude>**/.gitignore</exclude>
+                                <exclude>**/target/**</exclude>
+                                <exclude>.vscode/**</exclude>
+                                <exclude>.github/**/*</exclude>
                             </excludes>
                         </configuration>
                     </plugin>
