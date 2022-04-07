@@ -1,3 +1,7 @@
+## 3.0.9
+
+#53 Upgrade Jackson to 2.13.2.2
+
 ## 3.0.7
 
 * #49 "jaxrs2.version" is wrong, must be 2.1.6
