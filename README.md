@@ -20,7 +20,7 @@
 [![build test deploy](https://github.com/bootique/bootique-modules-parent/actions/workflows/maven.yml/badge.svg)](https://github.com/bootique/bootique-modules-parent/actions/workflows/maven.yml)
 [![Maven Central](https://img.shields.io/maven-central/v/io.bootique.modules.parent/bootique-modules-parent.svg?colorB=brightgreen)](https://search.maven.org/artifact/io.bootique.modules.parent/bootique-modules-parent/)
 
-_Not for public use! See [this parent POM](https://github.com/bootique/bootique-parent) instead._
+_Not for public use!_
 
 A parent POM of [Bootique](http://bootique.io) standard modules. Stores common development and deployment settings, 
 and common dependency versions. 
