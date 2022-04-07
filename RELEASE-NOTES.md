@@ -1,3 +1,7 @@
+## 2.0.9
+
+* #54 Upgrade Jackson to 2.12.6.1
+
 ## 2.0.8
 
 * #50 2.x upgrade Jersey to Java 17 compatible version of 2.35
