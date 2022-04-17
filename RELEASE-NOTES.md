@@ -1,6 +1,6 @@
-## 3.0.9
+## 3.0.10
 
-#53 Upgrade Jackson to 2.13.2.2
+#53  Upgrade Jackson to 2.13.2 / 2.13.2.2
 
 ## 3.0.7
 
