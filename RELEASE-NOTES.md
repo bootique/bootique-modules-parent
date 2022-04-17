@@ -1,6 +1,6 @@
-## 2.0.9
+## 2.0.10
 
-* #54 Upgrade Jackson to 2.12.6.1
+* #54 Upgrade Jackson to 2.12.6 / 2.12.6.1
 
 ## 2.0.8
 
