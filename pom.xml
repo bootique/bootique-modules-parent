@@ -64,6 +64,8 @@
         <jaxrs3.version>3.0.0</jaxrs3.version>
         <jersey3.version>3.0.3</jersey3.version>
 
+        <testcontainers.version>1.17.2</testcontainers.version>
+
         <!-- Other properties -->
         <gpg.pinentry-mode>loopback</gpg.pinentry-mode>
     </properties>
