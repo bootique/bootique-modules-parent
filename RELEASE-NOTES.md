@@ -1,6 +1,10 @@
+## 2.0.12
+
+* #57 2.x: Upgrade JUnit 5 to 5.8.1
+
 ## 2.0.11
 
-#56 2.x Upgrade to Jackson 2.13.4 / 2.13.4.2
+* #56 2.x Upgrade to Jackson 2.13.4 / 2.13.4.2
 
 ## 2.0.10
 
