@@ -5,6 +5,7 @@
 * #60 Upgrade SLF4J to 1.7.36
 * #61 Upgrade testcontainers to 1.17.6
 * #62 Upgrade JUnit 5 to 5.9.1
+* #63 Upgrade jackson to 2.14.1
 
 ## 3.0.15
 
