@@ -2,6 +2,7 @@
 
 * #58 Upgrade Jetty to 10.0.13 / 11.0.13
 * #59 Upgrade Jersey to 2.38 / 3.0.9
+* #60 Upgrade SLF4J to 1.7.36
 
 ## 3.0.15
 
