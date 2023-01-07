@@ -1,3 +1,7 @@
+## 3.0.17
+
+* #64 Upgrade slf4j to 2.0.6
+
 ## 3.0.16
 
 * #58 Upgrade Jetty to 10.0.13 / 11.0.13
