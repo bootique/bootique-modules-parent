@@ -1,3 +1,7 @@
+## 3.0.18
+
+* #65 Upgrade jackson to 2.14.2
+
 ## 3.0.17
 
 * #64 Upgrade slf4j to 2.0.6
