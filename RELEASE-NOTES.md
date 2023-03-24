@@ -2,6 +2,7 @@
 
 * #65 Upgrade jackson to 2.14.2
 * #66 Upgrade SLF4J to 2.0.7
+* #67 Upgrade Jetty to 10.0.14 / 11.0.14
 
 ## 3.0.17
 

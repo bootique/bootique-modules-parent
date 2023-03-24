@@ -56,8 +56,8 @@
         <mockito.version>3.9.0</mockito.version>
         <slf4j.version>2.0.7</slf4j.version>
 
-        <jetty10.version>10.0.13</jetty10.version>
-        <jetty11.version>11.0.13</jetty11.version>
+        <jetty10.version>10.0.14</jetty10.version>
+        <jetty11.version>11.0.14</jetty11.version>
 
         <jaxrs2.version>2.1.6</jaxrs2.version>
         <jersey2.version>2.38</jersey2.version>
