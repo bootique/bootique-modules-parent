@@ -60,7 +60,7 @@
         <jetty11.version>11.0.14</jetty11.version>
 
         <jaxrs2.version>2.1.6</jaxrs2.version>
-        <jersey2.version>2.38</jersey2.version>
+        <jersey2.version>2.39.1</jersey2.version>
 
         <jaxrs3.version>3.0.0</jaxrs3.version>
         <jersey3.version>3.0.9</jersey3.version>
