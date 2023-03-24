@@ -54,7 +54,7 @@
         <junit5.version>5.9.1</junit5.version>
 
         <mockito.version>3.9.0</mockito.version>
-        <slf4j.version>2.0.6</slf4j.version>
+        <slf4j.version>2.0.7</slf4j.version>
 
         <jetty10.version>10.0.13</jetty10.version>
         <jetty11.version>11.0.13</jetty11.version>

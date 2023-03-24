@@ -1,6 +1,7 @@
 ## 3.0.18
 
 * #65 Upgrade jackson to 2.14.2
+* #66 Upgrade SLF4J to 2.0.7
 
 ## 3.0.17
 
