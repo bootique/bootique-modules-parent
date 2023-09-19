@@ -63,7 +63,7 @@
         <jersey2.version>2.39.1</jersey2.version>
 
         <jaxrs3.version>3.0.0</jaxrs3.version>
-        <jersey3.version>3.0.9</jersey3.version>
+        <jersey3.version>3.0.11</jersey3.version>
 
         <testcontainers.version>1.19.0</testcontainers.version>
 
