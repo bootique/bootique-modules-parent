@@ -3,6 +3,7 @@
 * #69 Upgrade testcontainers to 1.19.0
 * #70 Upgrade jetty minor versions to 11.0.16, 10.0.16
 * #71 Upgrade Jersey 3 to 3.0.11
+* #72 Upgrade jackson to 2.14.3
 
 ## 3.0.18
 
