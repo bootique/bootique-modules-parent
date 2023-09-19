@@ -1,6 +1,7 @@
 ## 3.0.19
 
 * #69 Upgrade testcontainers to 1.19.0
+* #70 Upgrade jetty minor versions to 11.0.16, 10.0.16
 
 ## 3.0.18
 
