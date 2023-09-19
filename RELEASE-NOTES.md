@@ -1,3 +1,7 @@
+## 3.0.19
+
+* #69 Upgrade testcontainers to 1.19.0
+
 ## 3.0.18
 
 * #65 Upgrade jackson to 2.14.2
