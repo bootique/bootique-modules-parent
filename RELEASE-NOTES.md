@@ -1,3 +1,7 @@
+## 3.0.20
+
+* #73 Upgrade testcontainers to 1.19.2
+
 ## 3.0.19
 
 * #69 Upgrade testcontainers to 1.19.0
