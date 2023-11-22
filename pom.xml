@@ -18,7 +18,8 @@
   under the License.
   -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.bootique.modules.parent</groupId>
@@ -81,12 +82,10 @@
         </developer>
     </developers>
 
-    <scm>
-        <!-- TODO: Somehow dynamic scm.developerConnection value can't be properly inherited.
-            maven-release-plugin would generate URLs like 'bootique/${project.artifactId}/${project.artifactId}'
-            out of it (?!?).  Should probably replace ${project.artifactId} with a static value and ensure that 
-            each subpom explicitly defines its Git location...
-        -->
+    <scm child.scm.developerConnection.inherit.append.path="false"
+         child.scm.url.inherit.append.path="false"
+         child.scm.connection.inherit.append.path="false">
+        
         <developerConnection>scm:git:ssh://git@github.com/bootique/${project.artifactId}</developerConnection>
         <url>https://github.com/bootique/${project.artifactId}</url>
         <tag>HEAD</tag>
