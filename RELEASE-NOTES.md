@@ -1,6 +1,7 @@
 ## 3.0.21
 
 * #74 Fix POM scm tag inheritance
+* #75 Upgrade jackson to 2.15.4
 
 ## 3.0.20
 
