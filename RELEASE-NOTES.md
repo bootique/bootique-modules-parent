@@ -2,6 +2,7 @@
 
 * #76 Upgrade Jetty version to 11.0.20 and 10.0.20
 * #77 Upgrade testcontainers to 1.19.7
+* #78 Upgrade JUnit5 to 5.10.2
 
 ## 3.0.21
 
