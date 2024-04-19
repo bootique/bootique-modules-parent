@@ -1,6 +1,7 @@
 ## 3.0.22
 
 * #76 Upgrade Jetty version to 11.0.20 and 10.0.20
+* #77 Upgrade testcontainers to 1.19.7
 
 ## 3.0.21
 
