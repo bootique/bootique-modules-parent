@@ -1,3 +1,7 @@
+## 3.0.22
+
+* #76 Upgrade Jetty version to 11.0.20 and 10.0.20
+
 ## 3.0.21
 
 * #74 Fix POM scm tag inheritance
