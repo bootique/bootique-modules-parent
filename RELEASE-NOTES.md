@@ -4,6 +4,7 @@
 * #80 Upgrade Jersey to 2.45 and 3.0.16
 * #81 Upgrade testcontainers to 1.20.3
 * #82 Upgrade junit5 to 5.11.3
+* #83 Upgrade slf4j to 2.0.16
 
 ## 3.0.22
 
