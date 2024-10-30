@@ -1,6 +1,7 @@
 ## 3.0.23
 
 * #79 Upgrade to Jetty 11.0.24 and 10.0.24
+* #80 Upgrade Jersey to 2.45 and 3.0.16
 
 ## 3.0.22
 
