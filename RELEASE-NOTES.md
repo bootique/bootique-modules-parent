@@ -1,3 +1,7 @@
+## 4.0.0
+
+*  #84 Update for BQ 4.0
+
 ## 3.0.23
 
 * #79 Upgrade to Jetty 11.0.24 and 10.0.24
