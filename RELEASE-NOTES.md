@@ -1,6 +1,7 @@
 ## 4.0.0
 
-*  #84 Update for BQ 4.0
+* #84 Update for BQ 4.0
+* #85 Upgrade to Java 21
 
 ## 3.0.23
 
