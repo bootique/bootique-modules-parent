@@ -119,21 +119,9 @@
             </snapshots>
         </repository>
 
-        <!-- Main artifact repo -->
         <repository>
             <id>central</id>
             <url>https://repo1.maven.org/maven2</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-        <!-- Contains staging artifacts that may not yet be available in Central-->
-        <repository>
-            <id>oss-sonatype-staging</id>
-            <url>https://oss.sonatype.org/content/groups/staging/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
