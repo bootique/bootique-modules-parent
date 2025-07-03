@@ -1,3 +1,7 @@
+## 3.0.27
+
+* #86 Upgrade to Jetty 11.0.25 and 10.0.25
+
 ## 3.0.23
 
 * #79 Upgrade to Jetty 11.0.24 and 10.0.24
