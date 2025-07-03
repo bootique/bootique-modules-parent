@@ -63,6 +63,8 @@
 
         <!-- Other properties -->
         <gpg.pinentry-mode>loopback</gpg.pinentry-mode>
+
+        <central.publishing.maven.plugin.version>0.7.0</central.publishing.maven.plugin.version>
     </properties>
 
     <developers>
@@ -92,21 +94,15 @@
 
     <distributionManagement>
         <repository>
-            <id>oss-sonatype-releases</id>
-            <name>Deployment Repository</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+            <id>sonatype-central</id>
+            <name>Sonatype Central Portal Repository</name>
         </repository>
-        <snapshotRepository>
-            <id>oss-sonatype-snapshots</id>
-            <name>Snapshot Repository</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
     </distributionManagement>
 
     <repositories>
         <repository>
             <id>bootique-snapshots</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <url>https://central.sonatype.com/repository/maven-snapshots</url>
             <releases>
                 <enabled>false</enabled>
             </releases>
@@ -115,21 +111,9 @@
             </snapshots>
         </repository>
 
-        <!-- Main artifact repo -->
         <repository>
             <id>central</id>
             <url>https://repo1.maven.org/maven2</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-        <!-- Contains staging artifacts that may not yet be available in Central-->
-        <repository>
-            <id>oss-sonatype-staging</id>
-            <url>https://oss.sonatype.org/content/groups/staging/</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -207,9 +191,9 @@
                     </configuration>
                 </plugin>
                 <plugin>
-                    <groupId>org.sonatype.plugins</groupId>
-                    <artifactId>nexus-staging-maven-plugin</artifactId>
-                    <version>1.7.0</version>
+                    <groupId>org.sonatype.central</groupId>
+                    <artifactId>central-publishing-maven-plugin</artifactId>
+                    <version>${central.publishing.maven.plugin.version}</version>
                 </plugin>
             </plugins>
         </pluginManagement>
@@ -218,16 +202,12 @@
             <plugin>
                 <artifactId>maven-failsafe-plugin</artifactId>
             </plugin>
-            <!-- This plugin replaces maven-deploy-plugin and "deploy" goal -->
             <plugin>
-                <groupId>org.sonatype.plugins</groupId>
-                <artifactId>nexus-staging-maven-plugin</artifactId>
+                <groupId>org.sonatype.central</groupId>
+                <artifactId>central-publishing-maven-plugin</artifactId>
                 <extensions>true</extensions>
                 <configuration>
-                    <serverId>oss-sonatype-releases</serverId>
-                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-                    <autoReleaseAfterClose>false</autoReleaseAfterClose>
-                    <stagingProgressTimeoutMinutes>20</stagingProgressTimeoutMinutes>
+                    <publishingServerId>sonatype-central</publishingServerId>
                 </configuration>
             </plugin>
         </plugins>
