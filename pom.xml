@@ -56,8 +56,8 @@
 
         <jetty.version>12.1.0</jetty.version>
 
-        <jaxrs3.version>3.0.0</jaxrs3.version>
-        <jersey3.version>3.0.17</jersey3.version>
+        <jaxrs.version>3.1.0</jaxrs.version>
+        <jersey.version>3.1.11</jersey.version>
 
         <testcontainers.version>1.20.6</testcontainers.version>
 
