@@ -3,6 +3,7 @@
 * #87 Upgrade to JUnit 5.13.4
 * #88 Upgrade to Jetty 12.1.0
 * #89 Upgrade to JAX-RS 3.1.0, Jersey 3.1.11
+* #90 Upgrade testcontainers to 1.21.3
 
 ## 4.0.0
 
