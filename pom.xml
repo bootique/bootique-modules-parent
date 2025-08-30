@@ -49,7 +49,7 @@
         <jackson.version>2.15.4</jackson.version>
         <jackson.databind.version>2.15.4</jackson.databind.version>
 
-        <junit5.version>5.12.1</junit5.version>
+        <junit5.version>5.13.4</junit5.version>
 
         <mockito.version>5.16.0</mockito.version>
         <slf4j.version>2.0.17</slf4j.version>

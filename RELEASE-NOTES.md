@@ -1,3 +1,7 @@
+## 4.0.2
+
+* #87 Upgrade to JUnit 5.13.4
+
 ## 4.0.0
 
 * #84 Update for BQ 4.0
