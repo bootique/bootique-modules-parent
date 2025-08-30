@@ -1,6 +1,7 @@
 ## 4.0.2
 
 * #87 Upgrade to JUnit 5.13.4
+* #88 Upgrade to Jetty 12.1.0
 
 ## 4.0.0
 
