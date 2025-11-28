@@ -1,4 +1,4 @@
-##4.0.3
+## 4.0.3
 
 * #91 Do not export Mockito version
 
