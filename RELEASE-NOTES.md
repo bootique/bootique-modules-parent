@@ -1,3 +1,7 @@
+##4.0.3
+
+* #91 Do not export Mockito version
+
 ## 4.0.2
 
 * #87 Upgrade to JUnit 5.13.4
