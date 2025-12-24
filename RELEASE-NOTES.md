@@ -1,6 +1,7 @@
 ## 4.0.3
 
 * #91 Do not export Mockito version
+* #92 Review and update dependencies
 
 ## 4.0.2
 
