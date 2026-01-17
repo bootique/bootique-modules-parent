@@ -1,3 +1,7 @@
+## 3.0.28
+
+* #94 [3.x] Review and update dependencies
+
 ## 3.0.27
 
 * #86 Upgrade to Jetty 11.0.25 and 10.0.25
