@@ -1,3 +1,7 @@
+## 4.0.4
+
+* #96 Upgrade testcontainers to 2.0.3
+
 ## 4.0.3
 
 * #91 Do not export Mockito version
