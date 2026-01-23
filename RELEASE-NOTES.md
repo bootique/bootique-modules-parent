@@ -1,6 +1,7 @@
 ## 4.0.4
 
 * #96 Upgrade testcontainers to 2.0.3
+* #97 Upgrade Jersey to 4.0.1
 
 ## 4.0.3
 
