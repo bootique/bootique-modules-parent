@@ -2,6 +2,7 @@
 
 * #98 Upgrade Jackson to 2.21.1
 * #99 Upgrade JUnit to 6.0.3
+* #100 Upgrade Jetty to 2.1.7
 
 ## 4.0.4
 

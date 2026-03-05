@@ -52,7 +52,7 @@
         <junit.version>6.0.3</junit.version>
         <slf4j.version>2.0.17</slf4j.version>
 
-        <jetty.version>12.1.5</jetty.version>
+        <jetty.version>12.1.7</jetty.version>
 
         <jaxrs.version>4.0.0</jaxrs.version>
         <jersey.version>4.0.1</jersey.version>
