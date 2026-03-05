@@ -1,3 +1,7 @@
+## 4.0.5
+
+* #98 Upgrade Jackson to 2.21.1
+
 ## 4.0.4
 
 * #96 Upgrade testcontainers to 2.0.3
