@@ -1,3 +1,7 @@
+## 4.0.7
+
+* #106 Downgrade to JAXB 4.0.5
+
 ## 4.0.6
 
 * #102 Upgrade Jackson to 2.22.0

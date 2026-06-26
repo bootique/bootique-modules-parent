@@ -43,7 +43,7 @@
 
         <!-- Common lib versions -->
         <activation2.version>2.1.4</activation2.version>
-        <jaxb.version>4.0.9</jaxb.version>
+        <jaxb.version>4.0.5</jaxb.version>
 
         <!-- Keeping separate vars for Jackson pieces as they occasionally diverge -->
         <jackson.version>2.22.0</jackson.version>
