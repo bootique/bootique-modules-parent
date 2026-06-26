@@ -1,5 +1,6 @@
 ## 4.0.6
 
+* #102 Upgrade Jackson to 2.22.0
 * #103 Upgrade to JAXB 4.0.9
 
 ## 4.0.5

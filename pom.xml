@@ -45,9 +45,10 @@
         <activation2.version>2.1.4</activation2.version>
         <jaxb.version>4.0.9</jaxb.version>
 
-        <!-- Keeping separate vars for Jackson and Jackson databind modules, at they occasionally diverge -->
-        <jackson.version>2.21.1</jackson.version>
-        <jackson.databind.version>2.21.1</jackson.databind.version>
+        <!-- Keeping separate vars for Jackson pieces as they occasionally diverge -->
+        <jackson.version>2.22.0</jackson.version>
+        <jackson.annotations.version>2.22</jackson.annotations.version>
+        <jackson.databind.version>2.22.0</jackson.databind.version>
 
         <junit.version>6.0.3</junit.version>
         <slf4j.version>2.0.17</slf4j.version>
