@@ -43,7 +43,7 @@
 
         <!-- Common lib versions -->
         <activation2.version>2.1.4</activation2.version>
-        <jaxb3.version>4.0.4</jaxb3.version>
+        <jaxb.version>4.0.9</jaxb.version>
 
         <!-- Keeping separate vars for Jackson and Jackson databind modules, at they occasionally diverge -->
         <jackson.version>2.21.1</jackson.version>
