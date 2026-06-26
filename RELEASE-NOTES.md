@@ -3,6 +3,7 @@
 * #102 Upgrade Jackson to 2.22.0
 * #103 Upgrade to JAXB 4.0.9
 * #104 Upgrade Jetty to 12.1.10
+* #105 Upgrade testcontainers to 2.0.5
 
 ## 4.0.5
 

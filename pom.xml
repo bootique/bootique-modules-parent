@@ -58,7 +58,7 @@
         <jaxrs.version>4.0.0</jaxrs.version>
         <jersey.version>4.0.2</jersey.version>
 
-        <testcontainers.version>2.0.3</testcontainers.version>
+        <testcontainers.version>2.0.5</testcontainers.version>
 
         <!-- Other properties -->
         <gpg.pinentry-mode>loopback</gpg.pinentry-mode>
