@@ -48,7 +48,7 @@
         <!-- Keeping separate vars for Jackson pieces as they occasionally diverge -->
         <jackson.version>2.22.1</jackson.version>
         <jackson.annotations.version>2.22</jackson.annotations.version>
-        <jackson.databind.version>2.22.0</jackson.databind.version>
+        <jackson.databind.version>2.22.1</jackson.databind.version>
 
         <junit.version>6.0.3</junit.version>
         <slf4j.version>2.0.17</slf4j.version>
