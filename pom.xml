@@ -36,6 +36,14 @@
         <name>ObjectStyle LLC</name>
     </organization>
 
+    <!--
+      "modules" are not passed on to downstream projects using this POM as a parent
+      (see the list of inherited elements in https://maven.apache.org/pom.html#Inheritance)
+      -->
+    <modules>
+        <module>bootique-modules-parent-dependency-tests</module>
+    </modules>
+
     <properties>
         <maven.compiler.release>21</maven.compiler.release>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -207,6 +215,9 @@
                 <extensions>true</extensions>
                 <configuration>
                     <publishingServerId>sonatype-central</publishingServerId>
+                    <excludeArtifacts>
+                        <excludeArtifact>bootique-modules-parent-dependency-tests</excludeArtifact>
+                    </excludeArtifacts>
                 </configuration>
             </plugin>
         </plugins>
