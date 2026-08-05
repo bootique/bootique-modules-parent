@@ -1,6 +1,7 @@
 ## 4.0.8
 
 * #108 Upgrade Jackson to 2.22.1
+* #109 Upgrade Jetty to 12.1.12
 
 ## 4.0.7
 
