@@ -46,7 +46,7 @@
         <jaxb.version>4.0.5</jaxb.version>
 
         <!-- Keeping separate vars for Jackson pieces as they occasionally diverge -->
-        <jackson.version>2.22.0</jackson.version>
+        <jackson.version>2.22.1</jackson.version>
         <jackson.annotations.version>2.22</jackson.annotations.version>
         <jackson.databind.version>2.22.0</jackson.databind.version>
 
