@@ -35,6 +35,10 @@
         managed by "bootique-modules-parent", so that a build fails if any of the declared versions does not exist.
     </description>
 
+    <properties>
+        <commons.lang.version>3.20.0</commons.lang.version>
+    </properties>
+
     <!--
       Resolving these dependencies is the test: an upgrade to a version that was never published (a typo, a version
       that only exists in a staging repo, etc.) fails the build here instead of failing in a downstream module days
@@ -270,6 +274,13 @@
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-multipart</artifactId>
             <version>${jersey.version}</version>
+        </dependency>
+
+        <!-- ${commons.lang.version} - declared by this module, not by the parent -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons.lang.version}</version>
         </dependency>
 
         <!-- ${testcontainers.version} -->
