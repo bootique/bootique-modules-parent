@@ -1,5 +1,5 @@
 ---
-name: upgrade-dependencies
+name: bootique-dev-upgrade-dependencies
 description: >-
   Run a dependency upgrade cycle for the Bootique 4.x module family, starting from bootique-modules-parent.
   Use this whenever the user asks to check for newer dependency versions, address CVEs or security advisories,
