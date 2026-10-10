@@ -276,6 +276,7 @@
                                 <exclude>**/target/**</exclude>
                                 <exclude>.vscode/**</exclude>
                                 <exclude>.github/**/*</exclude>
+                                <exclude>**/.claude/**</exclude>
                             </excludes>
                         </configuration>
                     </plugin>
