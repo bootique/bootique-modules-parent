@@ -1,3 +1,12 @@
+## 4.0.9
+
+* #110 Upgrade Jackson to 2.22.3 (fixes CVE-2026-89425, CVE-2026-89407, CVE-2026-91777, CVE-2026-91776, CVE-2026-68497, CVE-2026-83557, CVE-2026-19032)
+* #111 Upgrade Jetty to 12.1.14
+* #112 Upgrade Jersey to 4.0.3
+* #113 Upgrade JUnit to 6.1.3
+* #114 Upgrade SLF4J to 2.0.20
+* #115 Upgrade Maven plugins
+
 ## 4.0.8
 
 * #108 Upgrade Jackson to 2.22.1
