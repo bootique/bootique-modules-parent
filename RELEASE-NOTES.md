@@ -1,3 +1,8 @@
+## 4.0.10
+
+* #116 Upgrade Jackson to 2.22.4
+* #117 Upgrade Maven plugins
+
 ## 4.0.9
 
 * #110 Upgrade Jackson to 2.22.3 (fixes CVE-2026-89425, CVE-2026-89407, CVE-2026-91777, CVE-2026-91776, CVE-2026-68497, CVE-2026-83557, CVE-2026-19032)
