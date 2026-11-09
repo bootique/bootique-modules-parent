@@ -36,3 +36,12 @@ Each entry: what happened, how it was recognized, what to do. Add to this file a
   key and is what `scripts/osv-scan.sh` uses.
 - The first `mvn ... -Prat verify` after bumping a plugin may pass in the parent (few files) and still
   break every module. Test inherited plugin changes against a real multi-module sibling.
+- The Bash tool's default shell may be zsh, which doesn't word-split `$REPOS`. `git -C "$all_names" status`
+  then errors, and its empty output passes an `[ -z ... ]` clean check. Run loops from a `bash` script and
+  treat a failing git command as a failure.
+- `-DskipTests` alone doesn't reliably skip integration tests since failsafe 3.6.0. Use
+  `-DskipTests -DskipITs` for the local no-test install, as the deploy jobs do.
+- `-o` install can fail on a cold cache (`bootique-cxf` needed CXF tools and JAXB jars). Retry online
+  without `-U`, and save the offline log first to confirm the cause.
+- To run one IT in a multi-module repo, `-Dit.test=X` fails at the parent with "No tests to run". Check
+  that tests actually ran before counting a run as evidence; a plain `mvn -B -o clean verify` is simplest.
