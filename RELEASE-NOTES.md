@@ -2,6 +2,7 @@
 
 * #116 Upgrade Jackson to 2.22.4
 * #117 Upgrade Maven plugins
+* #107 `<scm>` tag template is resolved wrong for core Bootique module
 
 ## 4.0.9
 

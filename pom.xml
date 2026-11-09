@@ -85,9 +85,11 @@
     </developers>
 
     <scm child.scm.developerConnection.inherit.append.path="false" child.scm.url.inherit.append.path="false" child.scm.connection.inherit.append.path="false">
-
-        <developerConnection>scm:git:ssh://git@github.com/bootique/${project.artifactId}</developerConnection>
-        <url>https://github.com/bootique/${project.artifactId}</url>
+        <!--
+          An artifactId can't be used to build these URLs, as it may differ from the repo name.
+          -->
+        <developerConnection>scm:git:ssh://git@github.com/bootique/bootique-modules-parent</developerConnection>
+        <url>https://github.com/bootique/bootique-modules-parent</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -133,6 +135,10 @@
     <build>
         <pluginManagement>
             <plugins>
+                <plugin>
+                    <artifactId>maven-enforcer-plugin</artifactId>
+                    <version>3.7.0</version>
+                </plugin>
                 <plugin>
                     <artifactId>maven-release-plugin</artifactId>
                     <version>3.3.1</version>
@@ -206,6 +212,28 @@
         </pluginManagement>
 
         <plugins>
+            <plugin>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>require-own-scm</id>
+                        <goals>
+                            <goal>enforce</goal>
+                        </goals>
+                        <configuration>
+                            <rules>
+                                <evaluateBeanshell>
+                                    <condition>
+                                        "${project.artifactId}".startsWith("bootique-modules-parent")
+                                            || !"${project.scm.url}".contains("/bootique-modules-parent")
+                                    </condition>
+                                    <message>Module inherits the SCM settings of bootique-modules-parent. Declare an explicit &lt;scm&gt; in the repo's root POM.</message>
+                                </evaluateBeanshell>
+                            </rules>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
             <plugin>
                 <artifactId>maven-failsafe-plugin</artifactId>
             </plugin>
